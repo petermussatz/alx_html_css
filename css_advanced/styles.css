@@ -72,3 +72,42 @@ nav ul li a {
   color: #C271FF;
   font-weight: bold;
 }
+.quote {
+  background-color: #C271FF; /* Bright purple */
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  color: white;
+  border-radius: 10px;
+  margin: 2rem auto;
+  max-width: 900px;
+}
+
+.quote img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%; /* Make it circular */
+  object-fit: cover;
+  margin-right: 1.5rem;
+  border: 3px solid white;
+}
+
+.quote-text {
+  max-width: 600px;
+}
+
+.quote-line {
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.quote-author {
+  font-weight: bold;
+  margin: 0;
+}
+
+.quote-role {
+  font-style: italic;
+  opacity: 0.8;
+  margin: 0;
+}
