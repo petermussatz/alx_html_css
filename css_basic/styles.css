@@ -36,3 +36,56 @@ header, footer {
 main {
   background-color: #f9f9f9;
 }
+/* Background and fonts */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+}
+
+/* Style the header */
+header {
+  background-color: #004466;
+  color: white;
+  padding: 1rem;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Style article content */
+article {
+  background-color: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style aside */
+aside {
+  background-color: #e6f2ff;
+  border-left: 3px solid #007acc;
+}
+
+/* Style footer */
+footer {
+  background-color: #004466;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
